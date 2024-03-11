@@ -1,9 +1,10 @@
 import * as React from 'react'
 
 const Avatar = ({ name, avatarUrl, height, width }: AvatarProps) => {
+  width = 50
   return (
     <div className={'bpw-bot-avatar'}>
-      {avatarUrl && <img height={height} width={width} src={avatarUrl} />}
+      {avatarUrl && <img height={height} width={50} src={avatarUrl} />}
       {!avatarUrl && (
         <svg width={width} height={width}>
           <text textAnchor={'middle'} x={'50%'} y={'50%'} dy={'0.35em'} fill={'#ffffff'} fontSize={15}>

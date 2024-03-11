@@ -335,7 +335,7 @@ class Header extends React.Component<HeaderProps> {
       <div className={'bpw-header-container'}>
         <div className={'bpw-header-title-flexbox'}>
           <div className={'bpw-header-title-container'}>
-            <Avatar name={this.props.botName} avatarUrl={this.props.botAvatarUrl} height={40} width={40} />
+            <Avatar name={this.props.botName} avatarUrl={this.props.botAvatarUrl} height={40} width={60} />
             {this.renderTitle()}
           </div>
         </div>
